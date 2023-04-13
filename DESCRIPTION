@@ -1,7 +1,7 @@
 Package: TensorComplete
 Type: Package
 Title: Tensor Noise Reduction and Completion Methods
-Version: 1.1.0
+Version: 0.2.0
 Author: Chanwoo Lee <chanwoo.lee@wisc.edu>, Miaoyan Wang <miaoyan.wang@wisc.edu>
 Maintainer: Chanwoo Lee <chanwoo.lee@wisc.edu>
 Imports:
