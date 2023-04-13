@@ -135,7 +135,7 @@ tensorize=function(X,Y,Z){
 #' Y = Theta + noise
 #'
 #' # Estimate Theta from nonparametic completion method via sign series
-#' hatTheta = fit_nonparaT(Y,truer = 2,H = 1,Lmin = -1,Lmax = 1, option =2)
+#' hatTheta = fit_nonparaT(Y,truer = 1,H = 1,Lmin = -1,Lmax = 1, option =2)
 #' print(hatTheta$est)
 #'
 #' @export
