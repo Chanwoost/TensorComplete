@@ -35,7 +35,7 @@ Optimize the weighted classification loss given a weight tensor, an observed dat
 }
 \examples{
 library(tensorregress)
-indices = c(2,3,4)
+indices = c(2,2,2)
 noise = rand_tensor(indices)@data
 Theta = array(runif(prod(indices),min=-3,max = 3),indices)
 

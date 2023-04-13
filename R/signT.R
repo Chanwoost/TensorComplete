@@ -216,7 +216,7 @@ SignM=function(Y,truer,H=5,Lmin,Lmax,option=2){
 #' @references C. Lee and M. Wang. Beyond the Signs: Nonparametric Tensor Completion via Sign Series. \emph{Neural Information Processing Systems 34 (NeurIPS)}, 2021.
 #' @examples
 #' library(tensorregress)
-#' indices = c(2,3,4)
+#' indices = c(2,2,2)
 #' noise = rand_tensor(indices)@data
 #' Theta = array(runif(prod(indices),min=-3,max = 3),indices)
 #'

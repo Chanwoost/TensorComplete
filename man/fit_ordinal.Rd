@@ -41,9 +41,9 @@ Estimate a signal tensor from a noisy and incomplete ordinal-valued tensor using
 # Latent parameters
 library(tensorregress)
 alpha = 10
-A_1 = matrix(runif(15*2,min=-1,max=1),nrow = 15)
-A_2 = matrix(runif(15*2,min=-1,max=1),nrow = 15)
-A_3 = matrix(runif(15*2,min=-1,max=1),nrow = 15)
+A_1 = matrix(runif(10*2,min=-1,max=1),nrow = 10)
+A_2 = matrix(runif(10*2,min=-1,max=1),nrow = 10)
+A_3 = matrix(runif(10*2,min=-1,max=1),nrow = 10)
 C = as.tensor(array(runif(2^3,min=-1,max=1),dim = c(2,2,2)))
 theta = ttm(ttm(ttm(C,A_1,1),A_2,2),A_3,3)@data
 theta = alpha*theta/max(abs(theta))
